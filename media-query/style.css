@@ -1,0 +1,23 @@
+.main{
+    background-color: green;
+    color: white;
+    display: flex;
+}
+.child1,.child2,.child3{
+    width: 33.33%
+}
+
+@media (max-width: 576px) {
+
+    .child1{
+        width: 100%;
+    }
+    .child2{
+        width: 100%;
+    }
+    .child3{
+        width: 100%;
+    }.main{
+        flex-direction: column;
+    }
+}
